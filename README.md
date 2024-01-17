@@ -135,7 +135,7 @@ exit                # Exits interface configuration
 int vlan 29         # Switches to VLAN 29
 no sh               # Enables the VLAN interface (no shutdown)
 ip add 192.168.29.2 255.255.255.0   # Assigns an IP address and subnet mask to the VLANCertainly, let me explain the commands one by one:
-
+```
 1. Fen-R Configuration:
 ```
 conf t              # Enters configuration mode
@@ -216,3 +216,4 @@ int vlan 29         # Switches to VLAN 29
 no sh               # Enables the VLAN interface (no shutdown)
 ip add 192.168.29.2 255.255.255.0   # Assigns an IP address and subnet mask to the VLAN interface
 exit                #
+```
